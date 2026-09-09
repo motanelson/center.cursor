@@ -1,1 +1,1 @@
-a simply decriptor , sample cript id "hello" pass
+center cursor mouse
