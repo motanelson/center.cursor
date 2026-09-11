@@ -44,7 +44,7 @@ namespace center
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Blue;
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(796, 451);
@@ -66,7 +66,7 @@ namespace center
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Blue;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -112,7 +112,7 @@ namespace center
                 Pen c = new Pen(Color.FromArgb(255, 255, 255));
                 Rectangle f = new Rectangle(e.X-25 , e.Y-25, 50, 50);
                 Rectangle f1 = new Rectangle( pictureBox1.Width / 2-25, pictureBox1.Height / 2-25, 50, 50);
-                ee.Clear(Color.FromArgb(0, 0, 255));
+                ee.Clear(Color.FromArgb(255, 255, 255));
                 ee.DrawLine(a, pictureBox1.Width/2, pictureBox1.Height/2, e.X, e.Y );
                 ee.DrawLine(a, e.X-25,e.Y, e.X+25, e.Y);
                 //ee.DrawEllipse(a,f);
